@@ -1,0 +1,7 @@
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\bin\Debug\OrderManagement.Data.dll
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\bin\Debug\OrderManagement.Data.pdb
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\bin\Debug\OrderManagement.Model.dll
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\bin\Debug\OrderManagement.Model.pdb
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\obj\Debug\OrderManagement.Data.csprojResolveAssemblyReference.cache
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\obj\Debug\OrderManagement.Data.dll
+F:\Codeing\visual studio\OrderManagement\OrderManagement.Data\obj\Debug\OrderManagement.Data.pdb

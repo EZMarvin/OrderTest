@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<h2>OrderList</h2>
+<div>
+    <div>
+        <textarea id="orderList" rows="20" cols="50"></textarea>
+    </div>
+    <input type="submit" id="btnSubmit" value="Get List" />
+</div>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $(function() {
+            $('#btnSubmit').click(function(event) {
+                event.preventDefault();
+                $.ajax({
+                url: '/Order/OrderList',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    $.each(data, function (index, element) {
+                        $("#orderList").append("Order ID:" + element.Id + "\n");
+                        $("#orderList").append("Account Number:" + element.Account.AccountNumber + "\n");
+                        $("#orderList").append("Customer Name:" + element.Account.Name + "\n");
+                        $("#orderList").append("Service Count:" + element.ServiceCount + "\n");
+                        $("#orderList").append("\n\n");
+
+                    });
+                },
+                error: function (e) {
+                    alert(e);
+                }
+
+            });
+            });
+        });
+    });
+</script> 
